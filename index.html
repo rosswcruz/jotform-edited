@@ -6,6 +6,10 @@
         body ul,
         body ol { list-style: none; }
         body { opacity: 0; }
+	html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 </style>
 	<script> window.onscroll = function () { window.scrollTo(0,window.scrollY); }; </script>
 	<script> var docWidth = document.documentElement.offsetWidth; [].forEach.call( document.querySelectorAll('*'), function(el) { if (el.offsetWidth > docWidth) { alert(el); } } ); </script>

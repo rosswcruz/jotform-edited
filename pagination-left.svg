@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile-Layout-Fields" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Section-Header-1-1-Copy-6" transform="translate(-213.000000, -734.000000)">
+            <g id="Group" transform="translate(213.000000, 734.000000)">
+                <g id="Group-2-Copy-4" transform="translate(29.000000, 29.000000) rotate(-180.000000) translate(-29.000000, -29.000000) ">
+                    <circle id="Oval" fill="#EBEEEF" cx="29" cy="29" r="29"></circle>
+                    <path d="M24.5526782,24.6398824 C23.8890863,24.0575851 22.8729633,24.1165908 22.2831038,24.7716752 C21.6932444,25.4267595 21.7530163,26.4298555 22.4166082,27.0121528 L29.6508331,33.3601346 C30.2599324,33.894615 31.1778039,33.894615 31.7869031,33.3601346 L39.0211281,27.0121528 C39.6847199,26.4298555 39.7444919,25.4267595 39.1546324,24.7716752 C38.564773,24.1165908 37.5486499,24.0575851 36.8850581,24.6398824 L30.7188681,30.050671 L24.5526782,24.6398824 Z" id="dropdown-arrow" fill="#8091A5" fill-rule="nonzero" transform="translate(30.718868, 29.000000) scale(1, -1) rotate(-90.000000) translate(-30.718868, -29.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

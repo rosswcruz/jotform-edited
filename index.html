@@ -5,9 +5,9 @@
         body { overflow: hidden; }
         body ul, body ol { list-style: none; }
         body { opacity: 0; }
-        @media not all and (min-width: 768px) { .jfCard { display: contents!important; background-color: #fff!important; }
+        @media (max-width: 768px) { .jfCard { display: contents!important; background-color: #fff!important; }
       .jfForm-backgroundContainer { background-image: linear-gradient(#ffffff, #ffffff)!important; } }
-	@media (min-width: 768px) { .jfCard { display: contents!important; background-color: #fff!important; }
+	@media only screen and (max-width: 768px) { .jfCard { display: contents!important; background-color: #fff!important; }
       .jfForm-backgroundContainer { background-image: linear-gradient(#ffffff, #ffffff)!important; } }
 </style>
 	<script> var docWidth = document.documentElement.offsetWidth; [].forEach.call( document.querySelectorAll('*'), function(el) { if (el.offsetWidth > docWidth) { alert(el); } } ); </script>

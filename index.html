@@ -5,12 +5,13 @@
         body { overflow: hidden; }
         body ul, body ol { list-style: none; }
         body { opacity: 0; }
-	body > div.jfForm-wrapper.hasTouch > div.jfForm-backgroundContainer { -ms-overflow-style: none!important; /* Edge, Internet Explorer */
+	div { -ms-overflow-style: none!important; /* Edge, Internet Explorer */
   scrollbar-width: none!important; /* Firefox */
   overflow-y: scroll!important; }
-	body > div.jfForm-wrapper.hasTouch > div.jfForm-backgroundContainer::-webkit-scrollbar {
+	div::-webkit-scrollbar {
   display: none!important; /* Chrome, Safari, Opera */
 }
+	button { display: block!important; }
         @media only screen and (max-width: 767px) { .jfCard { display: contents!important; background-color: #fff!important; }
       .jfForm-backgroundContainer { background-image: linear-gradient(#ffffff, #ffffff)!important; } }
 	@media only screen and (max-width: 768px) { .jfCard { display: contents!important; background-color: #fff!important; }

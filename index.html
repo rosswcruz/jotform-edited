@@ -5,10 +5,10 @@
         body { overflow: hidden; }
         body ul, body ol { list-style: none; }
         body { opacity: 0; }
-	.jfCard-wrapper { -ms-overflow-style: none!important; /* Edge, Internet Explorer */
+	div { -ms-overflow-style: none!important; /* Edge, Internet Explorer */
   scrollbar-width: none!important; /* Firefox */
-  overflow-y: scroll; }
-	.jfCard-wrapper::-webkit-scrollbar {
+  overflow-y: scroll!important; }
+	div::-webkit-scrollbar {
   display: none!important; /* Chrome, Safari, Opera */
 }
         @media only screen and (max-width: 767px) { .jfCard { display: contents!important; background-color: #fff!important; }

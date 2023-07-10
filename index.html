@@ -19,23 +19,7 @@ overflow-y: scroll;
 }
 }
 
-/** Microsoft Edge */
-@supports (-ms-ime-align: auto) {
-div {
--ms-overflow-style: none; 
-scrollbar-width: none;
-overflow-y: scroll;
-}
-}
 
-/** Mozilla Firefox */
-@-moz-document url-prefix() {
-div {
--ms-overflow-style: none; 
-scrollbar-width: none;
-overflow-y: scroll;
-}
-}
 
 /** Safari */
 @media not all and (min-resolution: 0.001dpcm) {

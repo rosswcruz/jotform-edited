@@ -5,9 +5,9 @@
         body { overflow: hidden; }
         body ul, body ol { list-style: none; }
         body { opacity: 0; }
-	div { -ms-overflow-style: none!important; scrollbar-width: none!important; overflow-y: scroll!important; }
-	div::-webkit-scrollbar { display: none!important; }
-	#cardProgress > div.jfProgress-mobileNavigation.jsMobileNavigation > button.jfInput-button.forPrev.forMobileNav.u-left.jsMobilePrev.noTranslate { display: block!important; }
+	div:not(button) { -ms-overflow-style: none!important; scrollbar-width: none!important; overflow-y: scroll!important; }
+	div:not(button)::-webkit-scrollbar { display: none!important; }
+	#button { display: block!important; }
         @media only screen and (max-width: 767px) { .jfCard { display: contents!important; background-color: #fff!important; }
       .jfForm-backgroundContainer { background-image: linear-gradient(#ffffff, #ffffff)!important; } }
 	@media only screen and (max-width: 768px) { .jfCard { display: contents!important; background-color: #fff!important; }

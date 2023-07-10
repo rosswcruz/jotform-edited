@@ -5,11 +5,11 @@
         body { overflow: hidden; }
         body ul, body ol { list-style: none; }
         body { opacity: 0; }
-	.jfCard { -ms-overflow-style: none; /* Edge, Internet Explorer */
-  scrollbar-width: none; /* Firefox */
+	div { -ms-overflow-style: none!important; /* Edge, Internet Explorer */
+  scrollbar-width: none!important; /* Firefox */
   overflow-y: scroll; }
-	.jfCard::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+	div::-webkit-scrollbar {
+  display: none!important; /* Chrome, Safari, Opera */
 }
         @media only screen and (max-width: 767px) { .jfCard { display: contents!important; background-color: #fff!important; }
       .jfForm-backgroundContainer { background-image: linear-gradient(#ffffff, #ffffff)!important; } }
